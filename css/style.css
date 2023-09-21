@@ -204,11 +204,23 @@ p{
 }
 
 /* 3 Banner */
+
+/* .back{
+    padding: 30px;
+   
+    background-image: url("https://i.pinimg.com/1200x/19/43/ac/1943aca9a353be74d4dace517eb98bdf.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+  
+} */
+
 .banner_wrapper{
-    background-image:url('../images/top-banner-img/Top-banner.jpg');
+    /* background-image:url('../images/top-banner-img/Top-banner.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #004caa;
 }
 .banner_wrapper p{
     max-width: 80%;
@@ -234,7 +246,8 @@ p{
     z-index:22;
 }
 .banner_wrapper .animate-img .aimg1{
-    left:-5.6875rem;
+    left:-8.6875rem;
+    top: -5rem;
     position:absolute;
     -webkit-animation-name:movebounce;
     animation-name:movebounce;
@@ -264,6 +277,17 @@ p{
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
 }
+
+
+.main-imgs{
+    position: relative;
+}
+.animate-img{
+    position: absolute;
+}
+
+
+
 
 .home .card:hover{
     -webkit-transform:translateY(-0.625rem);
@@ -493,8 +517,9 @@ p{
     font-weight: 600;
 }
 
-<!--Responsive design-->
-@media (max-width: 1199.5px) {
+/* <!--Responsive design--> */
+@media (max-width: 1199.5px) 
+{
 
     /* custom css */ 
     .card{
